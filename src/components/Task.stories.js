@@ -36,7 +36,9 @@ export const Default = {
 export const Pinned = {
   args: {
     task: {
-      ...Default.args.task,
+      // ...Default.args.task,
+      id:"2",
+      title: "Pinned Task",
       state: "TASK_PINNED",
     },
   },
@@ -45,7 +47,9 @@ export const Pinned = {
 export const Archived = {
   args: {
     task: {
-      ...Default.args.task,
+      // ...Default.args.task,
+      id:"3",
+      title: "Archived Task",
       state: "TASK_ARCHIVED",
     },
   },
