@@ -19,8 +19,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/",
-    "test-storybook": "test-storybook --watch"
+    "init-msw": "msw init public/"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "3",
@@ -28,13 +27,11 @@
     "@storybook/addon-essentials": "^8.4.7",
     "@storybook/addon-interactions": "^8.4.7",
     "@storybook/addon-links": "^8.4.7",
-    "@storybook/addon-mdx-gfm": "^8.4.7",
+    "@storybook/addon-mdx-gfm": "8.4.7",
     "@storybook/blocks": "^8.4.7",
     "@storybook/svelte": "^8.4.7",
     "@storybook/svelte-vite": "^8.4.7",
     "@storybook/test": "^8.4.7",
-    "@storybook/test-runner": "^0.21.0",
-    "@storybook/testing-library": "^0.0.7",
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "msw": "^2.3.0",
     "msw-storybook-addon": "^2.0.4",
