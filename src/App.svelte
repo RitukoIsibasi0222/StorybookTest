@@ -1,4 +1,14 @@
+
 <script>
+  import InboxScreen from './components/InboxScreen.svelte';
+  import { taskStore } from './store';
+</script>
+
+<InboxScreen error={$taskStore.error} />
+
+
+<!-- デフォルトの内容 -->
+<!-- <script>
   import svelteLogo from "./assets/svelte.svg";
   import viteLogo from "/vite.svg";
   import Counter from "./lib/Counter.svelte";
@@ -46,4 +56,4 @@
   .read-the-docs {
     color: #888;
   }
-</style>
+</style> -->
