@@ -7,7 +7,8 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-mdx-gfm",
-    "@chromatic-com/storybook"
+    "@chromatic-com/storybook",
+    '@storybook/addon-a11y',
   ],
 
   staticDirs: ["../public"],
