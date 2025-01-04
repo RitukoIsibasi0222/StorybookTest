@@ -1,7 +1,10 @@
 
 /** @type { import('@storybook/svelte-vite').StorybookConfig } */
 const config = {
-  stories: ['../src/components/**/*.stories.js'],
+  stories: [
+    '../src/components/**/*.stories.js',
+    '../src/Circle-Component/**/*.stories.js',
+  ],
    staticDirs: ['../public'],
    addons: [
      '@storybook/addon-links',
